@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Display </title>
+
+    <style>
+
+body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    } 
+
+.a input {
+    display: block;
+    width: 150px;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: 2px solid pink;
+    background-color: rgb(234, 225, 225);
+}
+
+.button p,
+.button button {
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.ggl img {
+    display: block;
+    margin: 5px;
+    width: 200px;
+ }
+
+.ggl input {
+    display: block;
+    margin: 5px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(234, 225, 225);
+    border: 2px solid pink;
+ }
+
+.sign input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.name {
+    display: flex;
+    gap: 10px;
+}
+.name input {
+    width: 50%;
+}
+
+.sign button {
+    width: 100%;
+    padding: 10px;
+    background: royalblue;
+    color: white;
+    border: none;
+}
+
+.uber input {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.uber button {
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+.sign, .uber {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 320px;
+}
+
+    </style>
+
+</head>
+<body>
+
+<div class="a">
+    <input type="text" placeholder="Name:">
+    <input type="email" placeholder="Email:">
+</div>
+
+<div class="button">
+    <p style="width: 150px;">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button>Yes</button>
+    <button>No</button>
+</div>
+
+<div class="ggl">
+    <img src="google.jpg">
+    <input type="text" placeholder="Search Google or tyle a URL">
+</div>
+<hr>
+
+<h2 style="color: red;"><u>Challenge Exercises</u></h2>
+
+<div class="sign">
+    <h2>Sign Up Form</h2>
+
+    <div class="name">
+        <input type="text" placeholder="First name:">
+        <input type="text" placeholder="Last Name:">
+    </div>
+
+    <input type="email" placeholder="Email:">
+    <button>Sign Up</button>
+</div>
+
+<div class="uber">
+    <h2>Request a Ride</h2>
+    <input type="text" placeholder="Enter pickup location">
+    <input type="text" placeholder="Enter destination">
+    <button style="background-color: black; color: white;">Request Now</button>
+    <button>Schedule for Later</button>
+</div>
+
+<hr>
+
+<h2>CODE</h2>
+<img src="codelt6.png" width="80%" height="80%">
+</body>
+</html>

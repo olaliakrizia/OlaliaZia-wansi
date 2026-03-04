@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS in Resume</title>
+
+    <style>
+
+body{
+    background-color:rgb(119, 115, 116);
+    margin: 100px;
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.pic{
+    display: flex;
+    width: 95%;
+    margin: 60px auto;
+    background: pink;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgb(187, 185, 185);
+}
+
+.left {
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.profile-pic {
+    width: 190px;
+    height:auto;
+    border: 5px solid rgb(149, 137, 137);
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgb(196, 135, 160);
+}
+
+.name {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f63f7c;
+}
+
+.right {
+    width: 60%;
+    padding-left: 40px;
+    border-left: 5px solid #f069a6;
+    color: #f63f7c;
+}
+
+.right h2 {
+    margin-bottom: 15px;
+}
+
+.info{
+    text-align:left;
+    line-height: 45px;
+    margin: 8px 0;
+    color:#f63f7c
+}
+
+p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#table{
+    width: 100%;
+    border-collapse:separate;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgb(149, 137, 137);
+}
+
+#table th{
+    background-color: #ff5d93;
+    color:black;
+    font-size: 35px;
+}
+
+
+.k{
+    color: rgb(133, 131, 218);
+}
+
+#table tr:hover{
+    background-color: rgb(214, 196, 196);
+}
+
+#table th, #table td{
+    border: 3px solid rgb(255, 58, 179);
+    padding: 15px;
+    text-align: center; 
+    width: 200px;
+    border-radius: 20px;
+}
+
+#table tr:nth-child(odd){
+    background-color: #fd78ad;
+    color: black;
+}
+    
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(87, 17, 72);
+}
+
+a:visited{
+    color: rgb(111, 196, 233);
+}
+
+a:hover{
+    color: rgb(247, 94, 196);
+}
+
+a:active{
+    color: rgb(255, 255, 22);
+}
+
+.z{
+    color: antiquewhite;
+}
+</style>
+</head>
+
+
+<body id="top">
+<div class="z">
+<h2>Midterm Lab Task # 1. Resume</h2>
+<p>Create your own resume and fill in the necessary data/information about you following the sample below </p>
+<b>Requirements:</b>
+<ol>
+<li> Insert an image using your any of your profile picture</li>
+<li> Use Heading tag for the Full Name</li>
+<li> Apply Heading 3 style for all the subheadings (Career Objective, Summary, Education, Experience
+Hardware Skills and Software Skills)</li>
+<li> Used Bulleted lists for all list entries</li>
+<li> You may also used p tag for the content of the page, HR tag for the Line</li>
+<li> Upload and Post the file using your Google Sites portfolio (Screen shot the output, the code and provide a short description of the
+task)</li>
+<li> You will be graded based on: </li>
+    a. Correctness of tags used - 10 pts <br>
+    b. Completeness of required contents - 10 pts
+</ol>
+</div>
+<hr>
+ 
+<div class="pic">
+
+<div class="left">
+<img src="picture.jpg" class="profile-pic"
+style="border: 5px solid rgb(237, 117, 167); border-radius: 20px; display:block; margin:auto;">
+<div class="name">Krizia, Olalia T.</div>
+</div>
+
+<div class="right">
+<div class="info">
+<h2>Contact Information</h2>
+<p>
+<br><b> Email: </b> <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJlFmHwZxnmdZxNzqZPpqrmBzNJsrGWLsVKDQnlKCJqxVMzvNbVjlfwPqjFXZkWfXrrgHkL" target="_blank">ziaolalia@gmail.com</a>
+<br><b> Phone: </b> +6309971938023
+<br><b> Address: </b> NHA Telapayong Arayat Pampanga
+<b> LinkedIn: </b> <a href="https://www.facebook.com/zia26.07" target="_blank"> Zia Olalia </a></p>
+</div>
+</div>
+</div>
+<hr>
+
+<p>
+<a href="#summ">• Summary </a> |
+<a href="#educ">• Education </a> |
+<a href="#exp">• Experience </a> |
+<a href="#hard">• Hardware Skills </a> |
+<a href="#soft">• Software Skills </a>
+</p>
+<hr>
+
+<h2 class="k" id="summ"> Career Objective </h2>
+<p>I would like to share my knowledge and skills to help developing and improving our technology. </p>
+
+<h2 class="k"> Expertise BIO </h2>
+<p> Creative and Developing Application </p>
+
+<h2 class="k" id="educ">Education</h2>
+<ul>
+<li> BSIT/PSAU/PSAU/2026 </li>
+<li> STEM/BAFI/2024 </li>
+<li> ANHS/BES/2017 </li>
+</ul>
+
+
+<h2 class="k" id="exp">Work Experience / Seminars Attended</h2>
+<ul>
+<li> ZSEERA VENUSTE/ Buensuceso Arayat Pampanga/ September, 16 2022 </li>
+<li> Drug Awareness/ Pampanga State Agricultural University/ November, 31 2025 </li>
+</ul>
+
+<h2 class="k" id="hard">Hardware Skills</h2>
+<ul>
+<li> Internet Trouble Shooting </li>
+<li> Peripheral Setup </li>
+</ul>
+
+<h2 class="k" id="soft">Software Skills</h2>
+<ul>
+<li> Basic Coding in html, java, python </li>
+<li> Operating System Installation</li>
+</ul>
+
+<h2 class="k">Additional Skills</h2>
+<ul>
+<li> Multitask </li>
+<li> Time management </li>
+<li> Basic Editing </li>
+</ul>
+
+<h2 class="k">Character Reference</h2>
+<table id="table">
+<tr>
+<th>Full Name</th>
+<th>Designation</th>
+<th>Email</th>
+<th>Contact Number</th>
+</tr>
+
+<tr>
+<td> Olalia, Krizia T. </td>
+<td> ZSEERA VENUSTE </td>
+<td> ziaolalia@gmail.com </td>
+<td> +639971938023 </td>
+</tr>
+
+<tr>
+<td> Dela Cruz, Maru </td>
+<td> Crew in mcdo </td>
+<td> delacruzmiro@gmail.com </td>
+<td> +639535606402 </td>
+</tr>
+
+<tr>
+<td> Mendoza, Zyrel C. </td>
+<td> Manager in cafe </td>
+<td> zyrelmendoza1218@gmail.com </td>
+<td> +639666746933 </td>
+</tr>
+
+<tr>
+<td> Dapadap, Rico  </td>
+<td> Crew in Cafe </td>
+<td> ricorii@gmail.com </td>
+<td> +6390663190938 </td>
+</tr>
+</table>
+<hr>
+
+<p style="text-align: center;">
+<a href="#top">Back to Top</a>
+</p>
+<hr>
+
+<h2>CODE</h2>
+<img src="coderesumecss.png">
+
+</body>
+</html>

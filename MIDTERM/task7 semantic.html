@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semantic</title>
+  
+  <style>
+  *{
+    box-sizing:border-box;
+  }
+  
+  body{
+    margin-top: 0px;
+  }
+  
+  nav{
+    background-color: hotpink;
+    height: 50px;
+  }
+  
+  header{
+  background-color : pink;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  }
+  
+  main{
+    background-color: pink;
+    height: 300px;
+  }
+  
+  aside{
+    background-color: pink;
+    width:33%;
+    float:left;
+    margin:0px;
+    padding: 5px;    
+  }
+  
+  section, article{
+    background-color: pink;
+    width:33%;
+    float:left;
+    margin:0px;
+    padding: 5px;
+  }
+  
+  footer{
+    background-color: lightgray;
+    height:100px;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  p{
+    text-align: justify;
+  }
+
+  @media screen and (max-width:600px)
+  {
+    aside, section, article
+  {
+    width:100%;
+  }
+}
+  
+  
+  </style>
+</head>
+
+<body>
+  <header> 
+  <h2>This is header</h2>
+  </header>
+  <nav></nav>
+  
+  <main>
+  <aside>
+  <h2>Aside</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deserunt, ea repellat voluptas officia assumenda animi doloribus, ad, nemo optio eum molestiae quos alias repellendus necessitatibus odit maxime dolores eaque!</p>
+  </aside>
+      
+  <section>
+  <h2>Section</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam assumenda dolores molestias cum molestiae rem, atque magni quos quisquam hic, cumque ratione. Temporibus porro hic a esse, tempore blanditiis nihil!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, a. Nulla recusandae repellat reprehenderit at, cum, quae maiores quam possimus obcaecati vel nobis perspiciatis vero voluptate inventore eveniet, illo temporibus.</p>
+  </section>
+  
+  <article>
+  <h2>Article</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quo? Hic, architecto. Debitis fugiat doloremque, fuga necessitatibus inventore odit eius nisi magni ducimus, quam facilis ex aliquid omnis optio molestiae.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse odit laudantium nulla aliquid necessitatibus, quidem quibusdam, pariatur consectetur exercitationem rem fugit sint eum? Commodi quidem doloremque delectus sed quia officia?</p>
+  </article>
+  
+  </main>
+  <footer>
+      <h2>This is footer</h2>
+  </footer>    
+
+<hr>
+
+<h2>CODE</h2>
+<img src="codesemantic.png" width="80%" height="80%">
+
+</body>
+
+</html>
